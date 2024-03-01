@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">MangaMe</string>
+    <string name="label_genre">GENRE</string>
+    <string name="label_rating">RATING</string>
+    <string name="label_views">VIEWS</string>
+    <string name="label_synopsis">Synopsis</string>
+    <string name="format_author">By %s</string>
+    <string name="format_detail">%s Detail</string>
+    <string name="label_read">Read</string>
+    <string name="label_user">User</string>
+    <string name="label_share">Share</string>
+    <string name="label_about">About</string>
+    <string name="profile_name">Akif Rachmat Hidayah</string>
+    <string name="profile_email">akifrh24@gmail.com</string>
+
+    <string-array name="manga_name">
+        <item>One Piece</item>
+        <item>Naruto</item>
+        <item>Jujutsu Kaisen</item>
+        <item>Bleach</item>
+        <item>Doraemon</item>
+        <item>Chainsawman</item>
+        <item>Vinland Saga</item>
+        <item>Berserk</item>
+        <item>Fullmetal Alchemist</item>
+        <item>Attack on Titan</item>
+    </string-array>
+
+    <string-array name="manga_sinopsis">
+        <item>One Piece adalah manga yang menceritakan tentang petualangan seorang bajak laut bernama Monkey D. Luffy, yang bermimpi untuk menjadi Raja Bajak Laut dengan menemukan harta legendaris bernama "One Piece".</item>
+        <item>Naruto adalah manga yang menceritakan tentang petualangan seorang ninja bernama Uzumaki Naruto, yang berjuang untuk diakui dan dihormati oleh orang-orang di desa shinobi Konoha.</item>
+        <item>Jujutsu Kaisen adalah manga yang menceritakan tentang petualangan seorang siswa bernama Yuji Itadori yang terlibat dalam konflik antara pemburu setan yang disebut Jujutsu Sorcerers.</item>
+        <item>Bleach adalah manga yang menceritakan tentang petualangan seorang shinigami bernama Ichigo Kurosaki yang bertarung melawan roh jahat dan mempertahankan kedamaian dunia manusia dan dunia roh.</item>
+        <item>Doraemon adalah manga yang menceritakan tentang petualangan seorang anak bernama Nobita yang dibantu oleh kucing robot dari masa depan bernama Doraemon.</item>
+        <item>Chainsawman adalah manga yang menceritakan tentang petualangan seorang pemburu setan bernama Denji yang berusaha untuk hidup layak dengan memburu setan bersama anjing setannya, Pochita.</item>
+        <item>Vinland Saga adalah manga yang menceritakan tentang petualangan seorang viking bernama Thorfinn yang berusaha membalas dendam pada seorang pemimpin Viking yang bertanggung jawab atas kematian ayahnya.</item>
+        <item>Berserk adalah manga yang menceritakan tentang petualangan seorang pedang bernama Guts yang berjuang melawan kekuatan supernatural di dunia yang keras dan kejam.</item>
+        <item>Fullmetal Alchemist adalah manga yang menceritakan tentang petualangan seorang alkimia bernama Edward Elric yang mencari batu filosofal untuk mengembalikan tubuhnya dan saudaranya, Alphonse, setelah kegagalan upaya transmutasi manusia.</item>
+        <item>Attack on Titan (Shingeki no Kyojin) adalah manga yang menceritakan tentang perjuangan umat manusia melawan humanoid raksasa misterius yang dikenal sebagai Titan, di dalam sebuah benteng untuk bertahan hidup.</item>
+    </string-array>
+
+    <string-array name="manga_thumbnail">
+        <item>https://upload.wikimedia.org/wikipedia/id/9/90/One_Piece%2C_Volume_61_Cover_%28Japanese%29.jpg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BZmQ5NGFiNWEtMmMyMC00MDdiLTg4YjktOGY5Yzc2MDUxMTE1XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1000_.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/id/4/46/Jujutsu_kaisen.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/thumb/7/72/Bleachanime.png/220px-Bleachanime.png</item>
+        <item>https://cdn.gramedia.com/uploads/items/9786230026256_Doraemon_Movie_Nobita_dalam_Dunia_Misteri.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/2/24/Chainsawman.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/id/5/51/Vinland_Saga_volume_01_cover.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/4/4a/Berserk_vol01.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/id/9/9d/Fullmetal123.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/id/thumb/d/d6/Shingeki_no_Kyojin_manga_volume_1.jpg/220px-Shingeki_no_Kyojin_manga_volume_1.jpg</item>
+    </string-array>
+
+    <string-array name="manga_rating">
+        <item>4.6</item>
+        <item>4.5</item>
+        <item>4.8</item>
+        <item>4.3</item>
+        <item>4.7</item>
+        <item>4.9</item>
+        <item>4.5</item>
+        <item>4.8</item>
+        <item>4.7</item>
+        <item>4.1</item>
+    </string-array>
+
+    <string-array name="manga_views">
+        <item>12k</item>
+        <item>10k</item>
+        <item>15k</item>
+        <item>8k</item>
+        <item>20k</item>
+        <item>25k</item>
+        <item>10k</item>
+        <item>18k</item>
+        <item>22k</item>
+        <item>6k</item>
+    </string-array>
+
+    <string-array name="manga_comments">
+        <item>1k</item>
+        <item>800</item>
+        <item>1.5k</item>
+        <item>600</item>
+        <item>2k</item>
+        <item>2.5k</item>
+        <item>800</item>
+        <item>1.8k</item>
+        <item>2.2k</item>
+        <item>600</item>
+    </string-array>
+
+    <string-array name="manga_author">
+        <item>Eiichiro Oda</item>
+        <item>Masashi Kishimoto</item>
+        <item>Gege Akutami</item>
+        <item>Tite Kubo</item>
+        <item>Fujiko F. Fujio</item>
+        <item>Tatsuki Fujimoto</item>
+        <item>Makoto Yukimura</item>
+        <item>Kentaro Miura</item>
+        <item>Hiromu Arakawa</item>
+        <item>Hajime Isayama</item>
+    </string-array>
+
+    <string-array name="manga_genre">
+        <item>Action, Adventure, Comedy, Drama, Fantasy</item>
+        <item>Action, Adventure, Fantasy</item>
+        <item>Action, Adventure, Dark Fantasy, Supernatural</item>
+        <item>Action, Adventure, Supernatural</item>
+        <item>Adventure, Comedy, Science Fiction</item>
+        <item>Action, Adventure, Dark Fantasy, Supernatural</item>
+        <item>Action, Adventure, Historical</item>
+        <item>Action, Adventure, Dark Fantasy, Horror</item>
+        <item>Action, Adventure, Dark Fantasy, Science Fiction</item>
+        <item>Action, Adventure, Dark Fantasy, Horror</item>
+    </string-array>
+    
+    <string-array name="manga_release">
+        <item>1999 20 October</item>
+        <item>1999 21 September</item>
+        <item>2018 5 March</item>
+        <item>2001 20 August</item>
+        <item>1969 1 December</item>
+        <item>2018 4 December</item>
+        <item>2005 23 April</item>
+        <item>1989 25 August</item>
+        <item>2001 22 July</item>
+        <item>2009 9 September</item>
+    </string-array>
+
+</resources>

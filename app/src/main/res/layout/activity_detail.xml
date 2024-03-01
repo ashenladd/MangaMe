@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingBottom="16dp">
+
+        <include
+            android:id="@+id/appbar_detail"
+            layout="@layout/layout_appbar_text" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_manga"
+            android:layout_width="170dp"
+            android:layout_height="260dp"
+            android:layout_marginTop="16dp"
+            android:elevation="4dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/appbar_detail"
+            app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Medium"
+            tools:ignore="contentDescription"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tv_manga_name"
+            style="@style/TextAppearance.Material3.HeadlineLarge"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_manga"
+            tools:text="One Piece" />
+
+        <TextView
+            android:id="@+id/tv_manga_author"
+            style="@style/TextAppearance.Material3.LabelLarge"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_manga_name"
+            tools:text="By Eiichiro Oda" />
+
+        <TextView
+            android:id="@+id/tv_label_genre"
+            style="@style/TextAppearance.Material3.TitleMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:text="@string/label_genre"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_label_rating"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_label_rating" />
+
+        <ImageView
+            android:id="@+id/iv_genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/ic_sword"
+            app:layout_constraintEnd_toEndOf="@+id/tv_label_genre"
+            app:layout_constraintStart_toStartOf="@+id/tv_label_genre"
+            app:layout_constraintTop_toBottomOf="@+id/tv_label_genre"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:id="@+id/tv_manga_genre"
+            style="@style/TextAppearance.Material3.BodyMedium"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:maxLines="2"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="@+id/tv_label_genre"
+            app:layout_constraintStart_toStartOf="@+id/tv_label_genre"
+            app:layout_constraintTop_toBottomOf="@+id/iv_genre"
+            tools:text="Action, Adventure, Comedy, Drama, Fantasy" />
+
+        <TextView
+            android:id="@+id/tv_label_rating"
+            style="@style/TextAppearance.Material3.TitleMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/label_rating"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_manga_author" />
+
+        <ImageView
+            android:id="@+id/iv_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/ic_rating"
+            app:layout_constraintEnd_toEndOf="@+id/tv_label_rating"
+            app:layout_constraintStart_toStartOf="@+id/tv_label_rating"
+            app:layout_constraintTop_toBottomOf="@+id/tv_label_rating"
+            app:tint="@color/yellow"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:id="@+id/tv_manga_rating"
+            style="@style/TextAppearance.Material3.BodyMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="@+id/tv_label_rating"
+            app:layout_constraintStart_toStartOf="@+id/tv_label_rating"
+            app:layout_constraintTop_toBottomOf="@+id/iv_rating"
+            tools:text="4.6" />
+
+        <TextView
+            android:id="@+id/tv_label_views"
+            style="@style/TextAppearance.Material3.TitleMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="48dp"
+            android:text="@string/label_views"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_label_rating"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_label_rating" />
+
+        <ImageView
+            android:id="@+id/iv_views"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/ic_eye"
+            app:layout_constraintEnd_toEndOf="@+id/tv_label_views"
+            app:layout_constraintStart_toStartOf="@+id/tv_label_views"
+            app:layout_constraintTop_toBottomOf="@+id/tv_label_views"
+            app:tint="@color/black"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:id="@+id/tv_manga_views"
+            style="@style/TextAppearance.Material3.BodyMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="@+id/tv_label_views"
+            app:layout_constraintStart_toStartOf="@+id/tv_label_views"
+            app:layout_constraintTop_toBottomOf="@+id/iv_views"
+            tools:text="12k" />
+
+        <TextView
+            android:id="@+id/tv_label_sinopsis"
+            style="@style/TextAppearance.Material3.TitleLarge"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/label_synopsis"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_manga_genre" />
+
+        <TextView
+            android:id="@+id/tv_manga_synopsis"
+            style="@style/TextAppearance.Material3.BodyMedium"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:justificationMode="inter_word"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_label_sinopsis"
+            tools:ignore="UnusedAttribute"
+            tools:text="One Piece adalah manga yang..." />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_read"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/label_read"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_manga_synopsis" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
