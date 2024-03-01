@@ -20,6 +20,7 @@
     <style name="Theme.MangaMe.Starting" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/blue_darker</item>
         <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="android:windowSplashScreenBehavior" tools:targetApi="tiramisu">icon_preferred</item>
         <item name="postSplashScreenTheme">@style/Theme.MangaMe</item>
     </style>
 
